@@ -34,6 +34,6 @@ label start:
 
     "I told her, I did not want to talk to her."
 
-    "She cryed and ran away. I never saw my #eileen# after that day."
+    "She cried and ran away. I never saw my #eileen# after that day."
 
     return

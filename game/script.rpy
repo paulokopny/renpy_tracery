@@ -1,12 +1,11 @@
 
-# First, 
 init -1 python:
     from renpy_tracery import TraceryCharacter as TC
-    
+    # Define Tracery grammar for Eileen.
     example_grammar = {
         'greetings': ['hello', 'hi', 'hey'],
     }
-
+    # Define Tracery grammar for narrator character.
     narrator_grammar = {
         'eileen': ['Eileen', 'dear Eileen', 'sweet Eileen'],
         'girl': ['girl', 'young lady'],

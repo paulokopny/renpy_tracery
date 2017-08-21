@@ -1,4 +1,5 @@
 
+# Define grammars from characters
 init -1 python:
     from renpy_tracery import TraceryCharacter as TC
     # Define Tracery grammar for Eileen.
@@ -13,6 +14,7 @@ init -1 python:
         'moody': ['moody', 'grumpy', 'bad-tempered', 'ill-tempered']
     }
 
+# Define Tracery characters
 define e = TC("Eileen", grammar=example_grammar)
 define narrator = TC(None, grammar=narrator_grammar)
 

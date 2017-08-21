@@ -1,4 +1,4 @@
-# renpy_tracery
+# Renpy + Tracery
 
 PyTracery for Renpy by Paul Okopny
 
@@ -13,3 +13,9 @@ Check Kate Compton's Tracery tutorial (http://www.crystalcodepalace.com/traceryT
 NB! In this version use < and > instead of [ and ]. This change has to be made to be compatible with Renpy formatting language
  
 
+# How to use (see game/script.rpy for example)
+
+1. Copy the renpy_tracery.py file into the game directory of your Renpy project.
+1. Define grammar for your characte(s) in the python block of the .rpy file(s).
+1. Define character(s) using TraceryCharacter class.
+1. Create your game!
